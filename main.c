@@ -133,7 +133,7 @@ int main(void)
 
 
 	Camera.x = 0;
-	Camera.y = 208;
+	Camera.y = 193;
 	start_mario(&mario, 0, GROUND, 5, 0, mario_sprite, w, h);
 	al_start_timer(timer);
 	//Main game loop

@@ -89,7 +89,7 @@ void move_mario(Mario* mario, bool* keys, camera* Camera)
 	//}
 
 	//system("cls");
-	printf("%lf %lf\n",mario->vy, mario->ay);
+	//printf("%lf %lf\n",mario->vy, mario->ay);
 	if (mario->vy != 0 || mario->pos_y != 191-20)
 	{
 		mario->pos_y = mario->pos_y - mario->vy;
